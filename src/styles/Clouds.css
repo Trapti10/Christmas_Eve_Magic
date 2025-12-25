@@ -1,0 +1,19 @@
+/* Clouds.css */
+.cloud-wrapper {
+ position: absolute;
+  inset: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.cloud-right-to-left {
+  position: absolute;
+  width: 100vw;
+  
+}
+
+.cloud-bottom-to-top {
+  position: absolute;
+  width: 100vw;
+}

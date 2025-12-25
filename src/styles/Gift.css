@@ -1,0 +1,39 @@
+.gift-wrapper {
+  position: relative;
+  width: 120px;
+  cursor: pointer;
+}
+
+.gift-box {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.gift-lid {
+  width: 100%;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  z-index: 3;
+}
+
+.sparkle {
+  position: absolute;
+  width: 80px;
+  top: -60px;
+  left: 20px;
+  z-index: 4;
+}
+
+.fortune {
+  position: absolute;
+  top: -90px;
+  width: 180px;
+  background: rgba(255,255,255,0.9);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 5;
+}
