@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 const Gifts = () => {
   return (
     <div>
+      
       <motion.img
         src="/Christmas_Gift.png"
         className="christmas_tree"
@@ -31,6 +32,7 @@ const Gifts = () => {
         viewport={{ once: true, amount: 0.4 }}
         transition={{ duration: 0.5,delay :1, ease: "backOut" }}
       />
+      
       <motion.img
         src="/Gift2.png"
         className="christmas_tree"
@@ -58,6 +60,7 @@ const Gifts = () => {
         viewport={{ once: true, amount: 0.4 }}
         transition={{ duration: 0.5,delay:1, ease: "backOut" }}
       />
+      
     </div>
   )
 }

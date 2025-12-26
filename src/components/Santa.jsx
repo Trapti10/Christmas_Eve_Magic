@@ -5,6 +5,7 @@ import "../styles/santa.css";
 const Santa = () => {
   return (
     <div className='santa'>
+      
        <motion.img
        src="santa3.png"
        alt='santa'

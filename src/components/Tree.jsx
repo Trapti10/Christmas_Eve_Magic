@@ -14,6 +14,7 @@ const Tree = () => {
        whileInView='visible'
        
       />
+   
       <motion.img
        src="/Tree8.png"
        className="christmas_tree"
@@ -120,6 +121,13 @@ const Tree = () => {
        src="/Tree7.png"
        className="christmas_tree1"
        style={{ right: "2vw", zIndex: 1, top: "40vh",height:"40vh", position:"absolute" }}
+       variants={treeAnimation}
+       initial="hidden"
+       whileInView='visible' 
+      />
+      <motion.img
+       src="/snowman.png"
+       style={{ right: "20vw", zIndex: 2, bottom: "4vh",height:"30vh", position:"absolute" }}
        variants={treeAnimation}
        initial="hidden"
        whileInView='visible' 

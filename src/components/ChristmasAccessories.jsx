@@ -18,10 +18,10 @@ const ChristmasAccessories = () => {
       <motion.img
        src="/img2.png"
        className="christmas_tree"
-       style={{right: 0, zIndex:2, bottom:"-9vh", height:"25vh", position:"absolute", opacity:0}}
-       initial={{y : "-4vh", opacity: 0}}
+       style={{right: 0, zIndex:2, bottom:"-14vh", height:"25vh", position:"absolute", opacity:0}}
+       initial={{x : "-4vw", opacity: 0}}
        viewport={{ once: true, amount: 0.4 }}
-       whileInView={{y: "-10vh", opacity: 5}}
+       whileInView={{x: "3vw", opacity: 5}}
        transition={{duration: 1,ease: "backOut"}}
        />
       <motion.img

@@ -14,7 +14,7 @@ const Hero = () => {
       initial={{ opacity: 0, y: "40vh" ,x: "35vw" }}
       
       whileInView={{ opacity: 1, y: "30vh" }}
-      viewport={{amount :0.3}}
+      viewport={{once:true,amount :0.3}}
       transition={{ duration: 1, delay: 3}}
       >
         🎄 Christmas Eve Magic 🎄
@@ -25,7 +25,7 @@ const Hero = () => {
         initial={{ opacity: 0, y: "45vh" ,x: "42vw" }}
         
         whileInView={{ opacity: 1, y: "32vh" }}
-        viewport={{amount :0.3}}
+        viewport={{once : true, amount :0.3}}
         transition={{ duration: 1, delay: 5}}
         
         >Scroll • Snow • Surprise</motion.p>

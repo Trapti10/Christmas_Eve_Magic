@@ -9,10 +9,14 @@ import Tree2 from './components/Tree2'
 import ChristmasAccessories from './components/ChristmasAccessories'
 import SurpriseGift from './components/SurpriseGift'
 import Gifts from './components/Gifts'
+import AutoMusic from './components/MusicPlayer'
+import MusicPlayer from './components/MusicPlayer'
+import GiftHint from './components/GiftHint '
 
 const App = () => {
   return (
     <>
+    <MusicPlayer/>
         <section className="page page-one">
       <Snow/>
       <Santa/>
@@ -31,6 +35,7 @@ const App = () => {
       <Clouds/>
       <Tree2/>
       <ChristmasAccessories/>
+      <GiftHint/>
       <Gifts/>
       </section>
     </>

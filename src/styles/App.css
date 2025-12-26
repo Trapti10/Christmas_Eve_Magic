@@ -32,10 +32,25 @@ html, body {
 
 .gift-center {
   position: absolute;
-  bottom: 18vh;
-  left: 50%;
+  top: 50vh;
+  left: 48%;
   transform: translateX(-50%);
   display: flex;
-  gap: 40px;
+  gap: 60px;
   z-index: 6;
+}
+.gift-wrapper {
+  position: relative; 
+  
+}
+
+.fortune {
+  position: absolute;
+  top: -120px !important;         
+  left: -60px !important;
+  transform: translateX(-50%);
+  background: transparent !important;
+  color: white;
+  z-index: 10;
+  pointer-events: none;
 }

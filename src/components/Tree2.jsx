@@ -97,7 +97,7 @@ const Tree2 = () => {
               initial={{y : "-3vh", opacity: 0}}
              whileInView={{y: "-5vh", opacity: 1}}
              transition={{duration: 1,ease: "backOut"}}
-             />
+             />   
 
     </div>
   )
