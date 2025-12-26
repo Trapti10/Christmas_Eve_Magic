@@ -14,7 +14,7 @@ const MusicPlayer = () => {
 
     const enableSound = () => {
       audio.muted = false;
-      audio.volume = 0.8;
+      audio.volume = 0.4;
       audio.play();
       window.removeEventListener("click", enableSound);
       window.removeEventListener("scroll", enableSound);
