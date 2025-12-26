@@ -10,7 +10,7 @@ const Santa = () => {
         src="santa3.png"
         alt='santa'
         initial={{ x: "-55vw", y: "6vh", rotate: 20 }}
-        whileInView={{ x: "180vw", y: "-15vh", rotate: -15 }}
+        whileInView={{ x: "150vw", y: "-15vh", rotate: -15 }}
         transition={{ duration: 10, ease: 'linear', repeat: Infinity }}
       />
     </div>
